@@ -22,7 +22,7 @@ jobs:
           python-version: '3.11' # Specify a compatible Python version
 
       - name: Install screen-ocr from GitHub
-        run: pip install git+https://github.com/wolfmanstout/screen-ocr.git
+        run: pip install git+https://github.com/wolfmanstout/screen-ocr.git@optimize-screen-capture
 
       - name: Run test_screenshot_performance.py
         run: python test_screenshot_performance.py
